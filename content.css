@@ -1,0 +1,134 @@
+.content{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background-color: aqua;
+}
+
+.left{
+    height: 100%;
+    width: 60%;
+    background-color: #161516;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.name{
+    font-size: 6vh;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.name span{
+    color: orangered;
+}
+.intro{
+    font-size: 6vh;
+    color: white;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.intro span{
+    color: orangered;
+}
+.paragraph{
+    font-size: 4vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.left button{
+    margin-top: 10vh;
+    height: 8vh;
+    width: 15vw;
+    background-color: orangered;
+    border-radius: 30vh;
+    border: none;
+    font-size: 2.8vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.right{
+    height: 100%;
+    width: 40%;
+    background-color:#252525;;
+}
+
+.right img{
+    height: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {background: #333; height: 1500px;}
+html {
+  scrollbar-face-color: #646464;
+  scrollbar-base-color: #646464;
+  scrollbar-3dlight-color: #646464;
+  scrollbar-highlight-color: #646464;
+  scrollbar-track-color: #000;
+  scrollbar-arrow-color: #000;
+  scrollbar-shadow-color: #646464;
+}
+
+::-webkit-scrollbar { width: 8px; height: 3px;}
+::-webkit-scrollbar-button {  background-color: #666; }
+::-webkit-scrollbar-track {  background-color: #646464;}
+::-webkit-scrollbar-track-piece { background-color: #000;}
+::-webkit-scrollbar-thumb { height: 50px; background-color: #666; border-radius: 3px;}
+::-webkit-scrollbar-corner { background-color: #646464;}
+::-webkit-resizer { background-color: #666;}
