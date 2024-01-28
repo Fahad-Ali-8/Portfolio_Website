@@ -2,15 +2,13 @@
     height: 100%;
     width: 100%;
     display: flex;
-    background-color: aqua;
 }
 
 .left{
-    height: 100%;
+    height: 50%;
     width: 60%;
-    background-color: #161516;
-    padding-left: 40px;
-    padding-top: 20px;
+    padding-left: 8vh;
+    padding-top: 4vh;
 }
 
 .name{
@@ -18,9 +16,11 @@
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
+    margin-top: 20vh;
 }
 .name span{
     color: orangered;
+    font-family: 'Caveat', cursive;
 }
 .intro{
     font-size: 6vh;
@@ -48,13 +48,56 @@
     color: white;
 }
 .right{
-    height: 100%;
+    height: 50%;
     width: 40%;
-    background-color:#252525;;
 }
 
 .right img{
-    height: 100px;
+    height: 500px;
+    margin-top: 10vh;
+}
+
+
+@media(max-width:600px){
+    .left{
+        width: 100%;
+        margin-left: 2vh;
+    }
+    .right{
+        display: none;
+    }
+    .name{
+        font-size: 5vh;
+        margin-top: 10vh;
+        margin-left: -8vh;
+    }
+    .intro{
+        font-size: 4vh;
+        margin-left: -8vh;
+    }
+    .paragraph{
+        font-size: 3.1vh;
+        margin-left: -8vh;
+    }
+    .left button{
+        height: 7vh;
+        width: 20vh;
+        font-size: 2.2vh;
+        margin-top: 5vh;
+        margin-left: -8vh;
+    }
+
+
+
+
+
+
+
+
+
+    .right img{
+        display: none;
+    }
 }
 
 
@@ -112,9 +155,6 @@
 
 
 
-
-
-body {background: #333; height: 1500px;}
 html {
   scrollbar-face-color: #646464;
   scrollbar-base-color: #646464;

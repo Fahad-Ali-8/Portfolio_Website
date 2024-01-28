@@ -1,0 +1,212 @@
+#services-container{
+    position: relative;
+    top: -4700px;
+    height: 700px;
+    width: 100%;
+}
+
+#services-container p{
+    font-size: 5vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: white;
+    margin-left: 5vh;
+}
+
+#services-container img{
+    height: 100px;
+    margin-left: 5vh;
+    margin-top: -60px;
+}
+
+
+
+
+
+.services{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 5px;
+    position: relative;
+    top: -5200px;
+}
+
+.service-1{
+    height: 300px;
+    width: 300px;
+    background-color: #232123;
+    margin-left: 20vh;
+    border-radius: 10px;
+    border: 3px solid #282628;
+}
+
+.service-1-img{
+    height: 50px;
+    position: relative;
+    top: 20px;
+    right: -130px;
+}
+
+.service-1-title{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    margin-left: 9vh;
+    margin-top: 10vh;
+}
+.service-1-details{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-left: 4vh;
+    width: 40vh;
+    line-height: 4vh;
+    text-align: center;
+}
+.service-2{
+    height: 300px;
+    width: 300px;
+    background-color: #232123;
+    border-radius: 10px;
+    border: 3px solid #282628;
+    margin-left: 10vh;
+}
+
+.service-2 img{
+    height: 70px;
+    position: relative;
+    top: 10px;
+    right: -120px;
+}
+.service-2-title{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    margin-left: 9vh;
+    margin-top: 6vh;
+}
+.service-2-details{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-left: 4vh;
+    width: 40vh;
+    line-height: 4vh;
+    text-align: center;
+}
+.service-3{
+    height: 300px;
+    width: 300px;
+    background-color: #232123;
+    border-radius: 10px;
+    border: 3px solid #282628;
+}
+
+.service-3-img{
+    height: 45px;
+    position: relative;
+    top: 20px;
+    right: -130px;
+}
+.service-3-title{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    margin-left: 9vh;
+    margin-top: 10vh;
+}
+.service-3-details{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-left: 4vh;
+    width: 40vh;
+    line-height: 4vh;
+    text-align: center;
+}
+.service-4{
+    height: 300px;
+    width: 300px;
+    background-color: #232123;
+    margin-left: 20vh;
+    margin-top: 5vh;
+    border-radius: 10px;
+    border: 3px solid #282628;
+}
+.service-5{
+    height: 300px;
+    width: 300px;
+    background-color: #232123;
+    border-radius: 10px;
+    margin-left: 10vh;
+    margin-top: 5vh;
+    border: 3px solid #282628;
+}
+.service-6{
+    height: 300px;
+    width: 300px;
+    background-color: #232123;
+    border-radius: 10px;
+    margin-top: 5vh;
+    border: 3px solid #282628;
+}
+
+
+
+@media (max-width:600px) {
+    #services-container{
+        position: relative;
+        top: -3800px;
+        margin-left: -3vh;
+    }
+
+    .services{
+        position: relative;
+        top: -4300px;
+        margin-left: -3vh;
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 5vh;
+    }
+    .service-1,
+    .service-2,
+    .service-3,
+    .service-4,
+    .service-5,
+    .service-6{
+        margin-left: 7vh;
+        margin-top: 0;
+        height: 45vh;
+        width: 45vh;    
+    }
+
+    .service-1-title,
+    .service-2-title,
+    .service-3-title,
+    .service-4-title,
+    .service-5-title,
+    .service-6-title{
+        font-size: 3vh;
+        margin-left: 10vh;
+    }
+
+    .service-1-details,
+    .service-2-details,
+    .service-3-details,
+    .service-4-details,
+    .service-5-details,
+    .service-6-details{
+        font-size: 1.9vh;
+        margin-left: 3vh;
+    }
+
+    .service-1-img,
+    .service-2-img,
+    .service-3-img,
+    .service-4-img,
+    .service-5-img,
+    .service-6-img{
+        margin-left: 3vh;
+    }
+}
