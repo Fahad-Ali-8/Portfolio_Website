@@ -67,6 +67,7 @@ html,body{
     background-color: #232123;
 }
 .menu-icon{
+    height: 30px;
     display: none;
 }
 
@@ -88,9 +89,13 @@ html,body{
         display: none; 
     }
     .menu-icon{
-        display: block;
+        /* display: block;
         margin-left: -101vh;
         height: 35px;
-        margin-top: 1vh;
+        margin-top: 1vh; */
+        position: fixed;
+        right: 3vh;
+        top: 1.5vh;
+        display: block;
     }
 }
