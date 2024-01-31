@@ -65,4 +65,8 @@
         row-gap: 3vh;
         margin-left: -2vh;
     }
+    .project-5,
+    .project-6{
+        display: none;
+    }
 }

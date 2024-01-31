@@ -154,18 +154,19 @@
 .about-me-lower-section-titles{
     display: flex;
     justify-content: space-between;
-    width: 100vh;
+    margin-right: 95vh;
 }
 .education-section-title{
     font-size: 4vh;
     margin-left: 5vh;
+    margin-right: 3vh;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
     color: white;
 }
 .experience-section-title{
     font-size: 4vh;
-    margin-left: 5vh;
+    margin-right: 1vh;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
     color: white;
@@ -236,7 +237,7 @@
 @media (max-width:600px) {
     #about-me-section{
         position: relative;
-        top: -4200px;
+        top: -4700px;
     }
     .about-me,
     .about-me-upper-section img,

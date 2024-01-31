@@ -157,18 +157,25 @@
 @media (max-width:600px) {
     #services-container{
         position: relative;
-        top: -3800px;
+        top: -4300px;
         margin-left: -3vh;
     }
 
     .services{
         position: relative;
-        top: -4300px;
+        top: -4850px;
         margin-left: -3vh;
         display: grid;
         grid-template-columns: 1fr;
         row-gap: 5vh;
     }
+
+    .service-4,
+    .service-5,
+    .service-6{
+        display: none;
+    }
+
     .service-1,
     .service-2,
     .service-3,

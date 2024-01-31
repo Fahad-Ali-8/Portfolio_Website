@@ -276,7 +276,7 @@
 @media (max-width:600px) {
     #contact-me-container {
         position: relative;
-        top: -4100px;
+        top: -4600px;
         height: 1000px;
         width: 100%;
     }
@@ -301,15 +301,26 @@
         margin-bottom: 2vh;
     }
 
-    .icon-2 img,
+    .icon-2 img{
+        margin-bottom: 2vh;
+        height: 5vh;
+        margin-left: 3vh;
+    }
+
     .icon-3 img,
     .icon-4 img {
         margin-bottom: 2vh;
         height: 5vh;
     }
 
+    .icon-2 p{
+        margin-top: -5vh;
+        color: gray;
+        font-size: 1.3vh;
+        margin-left: 3vh;
+    }
+
     .icon-1 p,
-    .icon-2 p,
     .icon-3 p,
     .icon-4 p {
         margin-top: -5vh;
@@ -317,8 +328,12 @@
         font-size: 1.3vh;
     }
 
+    .icon-2 h2{
+        color: white;
+        font-size: 2vh;
+        margin-left: 3vh;        
+    }
     .icon-1 h2,
-    .icon-2 h2,
     .icon-3 h2,
     .icon-4 h2 {
         color: white;
@@ -343,7 +358,7 @@
         border-radius: 10vh;
         border: 3px solid #282628;
         background-color: #232123;
-        font-size: 3vh;
+        font-size: 2.5vh;
         padding-left: 5vh;
         color: white;
         margin-left: -20vh;
@@ -355,19 +370,19 @@
         border-radius: 10vh;
         border: 3px solid #282628;
         background-color: #232123;
-        font-size: 3vh;
+        font-size: 2.5vh;
         padding-left: 5vh;
         color: white;
         margin-left: -20vh;
         margin-top: -3vh;
     }
     .Subject {
-        height: 8vh;
+        height: 7vh;
         width: 40vh;
         border-radius: 10vh;
         border: 3px solid #282628;
         background-color: #232123;
-        font-size: 3vh;
+        font-size: 2.5vh;
         padding-left: 5vh;
         margin-left: -8vh;
         color: white;
@@ -405,7 +420,7 @@
         border-top-left-radius: 10vh;
         text-align: center;
         position: relative;
-        top: -500vh;
+        top: -550vh;
     }
     .social-links {
         margin-top: 10px;
@@ -428,4 +443,47 @@
         background-color: #fff;
         color: #333;
     }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mobile-nav {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    top: 50px; /* Adjust this value based on your header height */
+    background-color: #232123;
+}
+
+.mobile-nav a {
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
 }

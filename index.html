@@ -24,7 +24,7 @@
 
     <div class="header">
         <div class="section-1">
-            <h4>Fahad Ali</h4>
+            <h4 class="section-1-h4">Fahad Ali</h4>
         </div>
 
 
@@ -38,9 +38,14 @@
 
 
         <div class="section-3">
-            <button>Work With Me</button>
-            <img class="header-section-3-img" src="icons/arrow-top-right.svg"alt="">             
-            <img class="menu-icon" src="icons/menu.png" alt="">
+            <a href="#contact-me-container"><button>Work With Me</button></a>
+            <img class="header-section-3-img" src="icons/arrow-top-right.svg" alt="">
+            <div class="menu-icon" onclick="myFunction()">
+                <img  class="menu-icon" src="icons/menu.png" alt="">
+            </div>
+            
+
+
         </div>
 
     </div>
@@ -50,13 +55,13 @@
         <div class="left">
             <P class="name">Hello my name is <span>Fahad Ali</span></P>
             <P class="intro">I`m a <span>Web developer</span></P>
-            <P class="paragraph">I`m a web developer with extensive experience of over 10
+            <P class="paragraph">I`m a web developer with extensive experience of over 2
                 years. My expertise is to create and design websites </P>
             <a href="#about-me-section"><button>More About Me</button></a>
         </div>
 
         <div class="right">
-            <img src="Fahad Ali.webp" alt="">
+            <img src="WhatsApp Image 2024-01-23 at 19.00.18_9a584b75 (3).webp" alt="">
         </div>
     </div>
 
@@ -107,7 +112,7 @@
 
         <div class="upper-section">
             <p>
-                Services
+                Services:
             </p>
 
             <img src="icons8-formatting-64.svg" alt="">
@@ -162,7 +167,7 @@
 
     <div id="about-me-section">
         <div class="about-me-upper-section">
-            <p class="about-me">About Me</p>
+            <p class="about-me">About Me:</p>
             <img src="icons8-formatting-64.svg" alt="">
             <p class="about-me-title">I`m Fahad Ali a <span>web developer</span></p>
             <p class="about-me-para">Assalamu Alaikum! I'm Fahad Ali, a passionate web developer and graphic designer
@@ -265,8 +270,8 @@
             </div>
         </div>
         <div class="about-me-section-4">
-            <button>Download CV</button>
-            <button>Hire Me</button>
+            <a href="icons/Professional CV Resume (1).png" download="Fahad Ali CV"> <button>Download CV</button></a>
+            <a href=".#contact-me-container"><button>Hire Me</button></a>
         </div>
         <div class="about-me-lower-section-titles">
             <p class="education-section-title">Education</p>
@@ -314,7 +319,7 @@
 
     <div id="contact-me-container">
         <div class="contact-heading-container">
-            <p>Contact Me</p>
+            <p>Contact Me:</p>
             <img src="icons8-formatting-64.svg" alt="">
         </div>
 
@@ -398,6 +403,43 @@
             <a href="https://www.instagram.com/fahad_alii_8?igsh=MW52cmJyYmxtYmpoOA==" target="_blank">Instagram</a>
         </div>
     </div>
+
+
+
+
+
+
+
+<!-- Add this section after the existing content -->
+<div class="mobile-nav" id="myLinks">
+    <a href="index.html">Home</a>
+    <a href="#portfolio">My Portfolio</a>
+    <a href="#services-container">Services</a>
+    <a href="#about-me-section">About Me</a>
+    <a href="#contact-me-container">Contact</a>
+</div>
+<script>
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "flex") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "flex";
+      }
+    }
+    </script>
+    
+    
+
+
+
+
+
+
+
+
+
+
 
 
 
