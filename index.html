@@ -53,8 +53,14 @@
 
     <div class="content">
         <div class="left">
-            <P class="name">Hello my name is <span>Fahad Ali</span></P>
-            <P class="intro">I`m a <span>Web developer</span></P>
+            <div class="name-container">
+                <P class="name">Hello my name is <div class="typing-text" id="typing-text"></div></P>
+            </div>
+            
+            <div class="intro-container">
+                <P class="intro">I`m a <div class="typing-text-2" id="typing-text-2"></div></P>
+            </div>
+            
             <P class="paragraph">I`m a web developer with extensive experience of over 2
                 years. My expertise is to create and design websites </P>
             <a href="#about-me-section"><button>More About Me</button></a>
@@ -427,6 +433,53 @@
         x.style.display = "flex";
       }
     }
+
+    
+  document.addEventListener('DOMContentLoaded', function () {
+  const textToType = "Fahad Ali";
+  const typingSpeed = 20; // in milliseconds
+  const typingTextElement = document.getElementById('typing-text');
+
+  function typeText() {
+    let i = 0;
+    const typeInterval = setInterval(function () {
+      typingTextElement.textContent += textToType[i];
+      i++;
+
+      if (i === textToType.length) {
+        clearInterval(typeInterval);
+      }
+    }, typingSpeed);
+  }
+
+  typeText();
+});
+
+
+
+
+  
+document.addEventListener('DOMContentLoaded', function () {
+  const textToType = "Web Developer";
+  const typingSpeed = 20; // in milliseconds
+  const typingTextElement = document.getElementById('typing-text-2');
+
+  function typeText() {
+    let i = 0;
+    const typeInterval = setInterval(function () {
+      typingTextElement.textContent += textToType[i];
+      i++;
+
+      if (i === textToType.length) {
+        clearInterval(typeInterval);
+      }
+    }, typingSpeed);
+  }
+
+  typeText();
+});
+
+
     </script>
     
     

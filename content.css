@@ -31,6 +31,38 @@
 .intro span{
     color: orangered;
 }
+
+  .name-container,
+  .intro-container{
+    display: flex;
+  }
+  .typing-text {
+    font-size: 6vh;
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid #000;
+    color: orangered;
+    font-family: 'Caveat', cursive;
+    padding-right: 8px; /* to give space after the cursor */
+    margin-top: 20vh;
+    margin-left: 2vh;
+  }
+
+
+  .typing-text-2 {
+    font-size: 6vh;
+    font-family: 'Arial', sans-serif;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-top:6vh;
+    margin-left: 2vh;
+    font-weight: 600;
+    color: orangered;
+    border-right: 2px solid #000;
+    padding-right: 8px; /* to give space after the cursor */
+  }
+  
 .paragraph{
     font-size: 4vh;
     font-family: Arial, Helvetica, sans-serif;
@@ -67,7 +99,7 @@
         display: none;
     }
     .name{
-        font-size: 5vh;
+        font-size: 4vh;
         margin-top: 10vh;
         margin-left: -8vh;
     }
@@ -86,17 +118,38 @@
         margin-top: 5vh;
         margin-left: -8vh;
     }
-
-
-
-
-
-
-
-
-
     .right img{
         display: none;
+    }
+    .name-container,
+    .intro-container{
+      display: flex;
+    }
+    .typing-text {
+      font-size: 4vh;
+      font-weight: 600;
+      white-space: nowrap;
+      overflow: hidden;
+      border-right: 2px solid #000;
+      color: orangered;
+      font-family: 'Caveat', cursive;
+      padding-right: 8px; /* to give space after the cursor */
+      margin-top: 10vh;
+      margin-left: 1vh;
+    }
+  
+  
+    .typing-text-2 {
+      font-size: 4vh;
+      font-family: 'Arial', sans-serif;
+      white-space: nowrap;
+      overflow: hidden;
+      margin-top:4vh;
+      margin-left: 2vh;
+      font-weight: 600;
+      color: orangered;
+      border-right: 2px solid #000;
+      padding-right: 8px; /* to give space after the cursor */
     }
 }
 
